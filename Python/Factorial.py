@@ -10,5 +10,5 @@ def fact2(n):
     else:
         return(n*fact2(n-1))
 
-print(fact1(4))
-print(fact2(4))
+print(fact1(12))
+print(fact2(5))

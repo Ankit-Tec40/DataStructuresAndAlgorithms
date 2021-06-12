@@ -8,7 +8,7 @@ int fact(int n){
     return res;
 }
 int main(){
-    int res=fact(4);
+    int res=fact(120);
     cout<<res;
     
 }

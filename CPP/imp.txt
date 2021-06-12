@@ -1,0 +1,28 @@
+    int exactly3Divisors(int n)
+    {
+        //Your code here
+        int count;
+        vector <bool> isprime(n+1,true);
+        for(int i=2;i<=n;i++){
+            if(isprime[i]){
+                if(i*i<=n){
+                count++;
+                }
+            for(int j=i*i;j<=n;j=j+i){
+                isprime[j]=false;
+                }
+            }
+        }
+    return count;
+    }
+
+
+
+
+
+
+
+
+
+
+    
